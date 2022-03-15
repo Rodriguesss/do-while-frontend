@@ -12,7 +12,7 @@ const MessageListWrapper = styled.div`
   }
 `
 
-const MessageListUl = styled.ul`
+const MessageUnorderedList = styled.ul`
   list-style: none;
 
   display: flex;
@@ -22,4 +22,4 @@ const MessageListUl = styled.ul`
   flex: 1;
 `
 
-export { MessageListWrapper, MessageListUl }
+export { MessageListWrapper, MessageUnorderedList }
