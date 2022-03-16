@@ -5,6 +5,7 @@ import { LoginBoxWrapper, SignInWithGitHub } from "./style";
 
 export function LoginBox() {
   const { signInUrl } = useContext(AuthContext)
+
   return (
     <LoginBoxWrapper>
       <strong>Entre e compartilhe sua mensagem</strong>

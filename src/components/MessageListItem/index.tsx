@@ -8,12 +8,12 @@ type Props = {
 export function MessageListItem({message} : Props) {
   return (
     <MessageWrapper>
-      <MessageContent>{message.text}</MessageContent>
+      <MessageContent>{message?.text}</MessageContent>
       <MessageUser>
         <UserImage>
-          <img src={message.user.avatar_url} alt={message.user.name} />
+          <img src={message?.user.avatar_url} alt={message?.user.name} />
         </UserImage>
-        <span>{message.user.name}</span>
+        <span>{message?.user.name}</span>
       </MessageUser>
     </MessageWrapper>
   )
